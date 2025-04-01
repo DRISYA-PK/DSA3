@@ -35,7 +35,7 @@ class BinaryTree{
             }
             else{
                 this.InsertValue(root.left,newNode)
-            }
+            } 
         }
         else{
             if(root.right===null)
